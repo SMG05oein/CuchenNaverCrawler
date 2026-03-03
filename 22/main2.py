@@ -4,6 +4,12 @@ from threading import Thread
 from CrawlerGUI2 import ScraperGUI
 from Crawler2 import CafeScraperEngine
 
+#TODO 밑에 있음
+'''
+1. 로그인 안 될 때 검색 안 되는 예외 추가
+2. 수집 시작 후 수집 중 되게 하기
+3. 수집 시작 후 GUI 흐려지는 거 삭제
+'''
 
 class MainController:
     def __init__(self):
